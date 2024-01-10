@@ -1,0 +1,4 @@
+print("Ayush Ranjan")
+
+msg <-"Welcome to R Studio Ayush"
+print(msg)
