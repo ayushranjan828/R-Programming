@@ -1,5 +1,5 @@
 a = "Tiger"
-b = "is animal"
+b = "is a animal"
 
 # print function is used to print single data items
 print(a)
