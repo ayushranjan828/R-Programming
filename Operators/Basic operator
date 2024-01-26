@@ -1,0 +1,63 @@
+# -------------------- Arithmetic Operator --------------------------
+val1 <- c(2,3,4)
+val2 <- c(1,6,3)
+
+print(val1 + val2) # Addition
+print(val1 - val2) # Subtraction
+print(val1 * val2) # Multiplication
+print(val1 ^ val2) # Power
+print(val1 / val2) # Division
+print(val1 %% val2) # Remainder
+print(val1 %/% val2) # The result of division of first vector with second quotient
+
+# ------------------ Relational Operator ----------------------------
+val3 <- c(2,3,3)
+val4 <- c(1,6,3)
+
+print(val3 > val4) # Greater than
+print(val3 < val4) # Less than
+print(val3 <= val4) # Less than equal to
+print(val3 >= val4) # Greater than equal to
+print(val3 == val4) # Equal to
+print(val3 != val4) # Not Equal to
+
+# ---------------- Logical Operator ---------------------------------
+val5 <- c(1,4,TRUE,3+4i,6.8)  # Non-zero element is true
+val6 <- c(9,4,FALSE,3+4i,7.8)
+
+print(val5 & val6) # AND
+print(val5 | val6) # OR
+print(!val6) # NOT
+print(!val5)
+
+val7 <- c(1)  #Latest version of R Logical AND and Logical OR takes length one only.
+val8 <- c(0)
+print(val7 || val8) # Logical OR
+print(val7 && val8) # Logical AND
+
+#------------------- Assignment Operator -----------------------------
+v1 <- c(1,2,3)
+v2 <<- c(4,5,6)
+v3 = c(7,8,9)
+print(v1)
+print(v2)
+print(v3)
+
+c('a','b','c') -> v4
+c('d','e','f') ->> v5
+print(v4)
+print(v5)
+
+#----------------- Other Operator -----------------------------------
+v <- 2:8 # Colon operator (used to print element in sequence)
+print(v)
+
+v1 <- 8
+v2 <- 12
+v3 <- 1:10
+print(v1 %in% v3) # Checking element present in sequence
+print(v2 %in% v3)
+
+v4 <- matrix(c(1,2,3,4,5,6,7,8,9), nrow = 3, ncol = 3)
+t = v4 %*% t(v4) # Multiply transpose of a matrix
+print(t)
