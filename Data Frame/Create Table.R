@@ -3,7 +3,7 @@
     Employe_ID = c(001, 002, 003, 004, 005),
     Employe_Name = c("Ayush","Piyush","Unnati","Muskan","Mahima"),
     Employe_Salary = c(75000, 80000, 85000, 65000, 55000),
-    Employe_department = c("CSE", "CSE", "ECE", "Pharmacy", "IT"),
+    Employe_department = c("CSE", "CSE", "ECE", "MBBS", "IT"),
     Employe_Address = c("Darbhanga", "Darbhanga", "Ranchi", "Mumbai", "Vanaras"),
     Employe_Experence = c(3, 2, 3, 1, 2)
  )
